@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    
+}
+/* background-color for body */
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+/* background-color for button and size */
+.btn-colo{
+    background-color:hsl(47, 88%, 63%) ;
+}
+.btn {
+    padding: 2px 4px;
+    font-weight: 800;
+    transition:  0.5s ease-in-out;
+}
+.btn:hover{
+    background-color: black;
+    color:hsl(47, 88%, 63%) ;
+}
+/* size img and space arownd */
+.img-box img{
+    width: 30px;
+    height: 30px;
+}
+.img-box p{
+  margin: 0;
+  margin-left: 10px;
+}
+/* font-weight and hover  */
+h5{
+    font-weight: 800;
+    transition: all 0.5s ease-in-out;
+}
+h5:hover{
+    color: hsl(47, 88%, 63%) ;
+}
+/* padding p */
+.title-img{
+    font-weight: 800;
+}
+.contant-1{
+    padding: 10px 0px  ;
+    margin: 0;
+}
+.card-text{
+    margin-bottom: 10px;
+}
+.card{
+    box-shadow: 8px 8px  ;
+}
+.card-body{
+    padding: 10px;
+    
+}
